@@ -34,7 +34,7 @@ For creating this app I've read the chapters that where specified in the task of
 
 For developing the project, I've used the CodeBlocks IDE. The project can be simply compiled having the ** *.cbp ** file and the resource ** *.cpp **.  
 
-![The app](./images/App.jpg)
+![The app](./images/app.bmp)
 
 The Window has a minimal size which was set using the [WM_GETMINMAXINFO](http://msdn.microsoft.com/en-us/library/windows/desktop/ms632626(v=vs.85).aspx) message processing. 
 
