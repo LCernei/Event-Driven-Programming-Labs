@@ -165,7 +165,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
 			// First Text
 			HFONT hFont = CreateFont(25,0,0,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
 				CLIP_DEFAULT_PRECIS,NULL, VARIABLE_PITCH,TEXT("Impact"));
-			SetRect(&rect, 10, 10, 50, 50);
+			SetRect(&rect, 10, 15, 50, 50);
 			SelectObject(hdc, hFont);
 			SetBkMode(hdc, OPAQUE);
 			SetBkColor(hdc, RGB(50,100,20));
