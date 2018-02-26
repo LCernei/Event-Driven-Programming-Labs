@@ -28,7 +28,7 @@ Window. Window handling. Basic window’s form elements
 * Make elements to fit window on resize `(1 pt)`
 * Change behavior of different window actions (at least 3). For ex.: on clicking close button, move window to a random location on display's working space `(1 pt)`
 
-## The application creation stepts
+## The application
 
 For creating this app I've read the chapters that where specified in the task of the lab and also the [www.MSDN.com](http://msdn.microsoft.com/en-US/) website for and advance look. 
 
@@ -36,10 +36,14 @@ For developing the project, I've used the CodeBlocks IDE. The project can be sim
 
 ![The app](./images/app.bmp)
 
-The Window has a minimal size which was set using the [WM_GETMINMAXINFO](http://msdn.microsoft.com/en-us/library/windows/desktop/ms632626(v=vs.85).aspx) message processing. 
 
-The font and the size (which is a parameter of the CreateFont function) are stored in a two dimensional array. The rows represent different fonts, the columns different sizes of the font. 
+The Window has a minimal size which was set using the WM_GETMINMAXINFO message processing.
 
-The color of the text of the Input Edit Box is changed accordng to [WM_CTLCOLOREDIT](http://msdn.microsoft.com/en-us/library/windows/desktop/bb761691(v=vs.85).aspx) message processing. This message allows us to change the color only for the Edit Boxes which don't have the style **ES_READONLY**. That's why processing this message we can't change the color of the text of the Output Edit Box.
 
-If you type the word 'MOVE' then the window will be Maximized.
+If you click the 'Alert' button, you can remove it by selecting 'YES' from the message box that appeared.
+
+If you click the 'X' button from the 'Title bar', the app won't close. Even with Alt+F4 it Prompts a message box, then another one.
+
+Maximize and minimize work by default.
+
+If you type the word 'exit' in the input field then the app will close.
