@@ -37,7 +37,7 @@ For developing the project, I've used the CodeBlocks IDE. The project can be sim
 ![The app](./images/app.bmp)
 
 
-The Window has a minimal size which was set using the WM_GETMINMAXINFO message processing.
+The Window has a minimal size which was set using the WM_GETMINMAXINFO message processing. </br>
 The 'Text' / 'Button' / 'Input' has a custumized style becouse the 'CreateFont()' function was used.
 The elements fill the window on resize using the WM_SIZE message processing.
 The app redraws the entire window if a movement or size adjustment is made, because the style of the class: CS_HREDRAW | CS_VREDRAW.
