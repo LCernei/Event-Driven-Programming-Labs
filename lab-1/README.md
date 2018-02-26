@@ -38,10 +38,10 @@ For developing the project, I've used the CodeBlocks IDE. The project can be sim
 ![The app](./images/app_extended.bmp)
 
 The Window has a minimal size which was set using the WM_GETMINMAXINFO message processing. </br>
-To center the text (vertically / horizontally / absolute) we used 'GetClientRect()' function and DT_CENTER constant. My text is not centered vertically because DT_VCENTER is absent, but it will go uder the input form. That;s why I left only the horizontal allignment. </br>
+To center the text (vertically / horizontally / absolute) we used 'GetClientRect()' function and DT_CENTER constant. My text is not centered vertically because DT_VCENTER is absent. The center of the window is used by the input and I left only the horizontal allignment. </br>
 The 'Text' / 'Button' / 'Input' has a custumized style becouse the 'CreateFont()' function was used. </br>
 The elements fill the window on resize using the WM_SIZE message processing. </br>
-The app redraws the entire window if a movement or size adjustment is made, because the style of the class: CS_HREDRAW | CS_VREDRAW. 
+The app redraws the entire window if a movement or size adjustment is made, because the style of the class: CS_HREDRAW | CS_VREDRAW. </br>
 When there are many items in the list, the field provides a vertical scroll, using WS_VSCROLL.
 
 If you click the 'Alert' button, you can remove it by selecting 'YES' from the message box that appeared. </br>
