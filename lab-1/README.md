@@ -38,11 +38,13 @@ For developing the project, I've used the CodeBlocks IDE. The project can be sim
 
 
 The Window has a minimal size which was set using the WM_GETMINMAXINFO message processing.
-
+The 'Text' / 'Button' / 'Input' has a custumized style becouse the 'CreateFont()' function was used.
+The elements fill the window on resize using the WM_SIZE message processing.
+The app redraws the entire window if a movement or size adjustment is made, because the style of the class: CS_HREDRAW | CS_VREDRAW.
 
 If you click the 'Alert' button, you can remove it by selecting 'YES' from the message box that appeared.
 
-If you click the 'X' button from the 'Title bar', the app won't close. Even with Alt+F4 it Prompts a message box, then another one.
+If you click the 'X' button from the 'Title bar', the app won't close. Even with Alt+F4 it prompts a message box, then another one.
 
 Maximize and minimize work by default.
 
