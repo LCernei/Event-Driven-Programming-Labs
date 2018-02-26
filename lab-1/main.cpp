@@ -170,7 +170,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
 			SetBkMode(hdc, OPAQUE);
 			SetBkColor(hdc, RGB(50,100,20));
 			SetTextColor(hdc, RGB(255,100,40));
-			DrawText(hdc, TEXT("To do:"), -1,&rect, DT_NOCLIP);
+			DrawText(hdc, TEXT("!sad things to do:"), -1,&rect, DT_NOCLIP);
 
 			EndPaint(hwnd, &Ps);
 		}
