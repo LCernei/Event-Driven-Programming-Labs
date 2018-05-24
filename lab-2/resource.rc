@@ -1,0 +1,14 @@
+#include "includes.h"
+
+IDR_MYMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+    POPUP "&Go"
+    BEGIN
+        MENUITEM "&Go", ID_GO
+    END
+END
