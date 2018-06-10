@@ -8,3 +8,4 @@
  - [Lab 3](/lab-3/)
  - [Lab 4](/lab-4/)
  - [Lab 5](https://github.com/lungu25/TUM-EDP-Laboratory/tree/master/LabEDP%235)
+ - [Lab 6](/lab-6/)
